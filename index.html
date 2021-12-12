@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #all{
+            margin: 0 auto;
+            padding:0px;
+            list-style: none;
+            text-decoration: none;  
+            width: 1520px;
+        }
+        .dhl{
+            width: 1520px;
+            height: 90px;
+            background-color: #2B579A;
+        }
+       .dhl ul{
+           list-style: none;
+       }
+        .dhl  a{
+            float: left;
+            width: 150px;
+            height: 45px;
+            text-align: center;
+            line-height: 45px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 80px;
+        }
+        .dhl a:hover{
+            background-color:rgb(0, 32, 80) ;
+           
+        }
+       
+        .logo{
+            float: left;
+            margin-left: 30px;
+        }
+        .ssk{
+            padding-top: 40px;
+            padding-left: 150px;
+       }
+        .ssk .one{
+            width:400px;
+            height:25px;
+            background-color: rgb(154, 172, 233);
+            margin-left: 150px;
+        }
+        .ssk .two{
+            width: 50px;
+            height: 30px;
+            background-color: rgb(150, 156, 175);
+        }
+        .ssk .three{
+            margin-left: 100px;
+        }
+        .ssk .four{
+            width: 130px;
+            height: 40px;
+            color: white;
+            font-size: 16px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 100px;
+            background-color: rgb(150, 156, 175);
+        }
+        .san{
+            margin-top: 60px;
+            margin-left: 100px;
+            position: relative;
+            border: 2px solid rgb(106, 132, 165);
+            width: 1300px;
+            padding-left: 20px;
+            
+        }
+     
+        .san  dt{
+            list-style: none;
+            color:rgb(77, 110, 170);
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;  
+          
+       }
+        
+        .san>dl {
+            display: block;
+        }
+        .san dl dt {
+            display: inline-block;
+        }
+       
+        .san dl>dt {
+            float: left;
+        }
+        .san dl dd {
+            display: inline-block;
+        }
+
+
+       .san a{
+           margin: 0 5px;
+           padding: 0 5px;
+            display: inline-block;
+           text-decoration: none;
+           color:rgb(85, 67, 67) ;
+           font-size: 16px;
+           font-weight: bold;
+           height: 1.5em;
+           line-height: 1.5em;
+       }
+    
+       .san a:hover{
+           color: #2B579A;
+       }
+       .quan{
+           background-color: cornflowerblue;
+           
+      }
+       .tu {
+           clear: both;
+           margin-top: 50px;
+           margin-left: 50px;
+       }
+       .tu img{
+           margin-left: 80px;
+           width: 250px;
+           height: 350px;
+           margin-bottom: 50px;
+       }
+       .tu img:hover{
+           position: relative;
+           border: 3px solid #2B579A;
+           bottom: 5px;
+       }
+       footer{
+           background-color: #2B579A;
+           height: 80px;
+           line-height: 80px;
+           text-align: center;
+           color: white;
+           font-size: 20px;
+           font-family: 'Courier New', Courier, monospace;
+       }
+
+
+    </style>
+</head>
+<body>
+    <div id="all">
+
+     <div class="dhl">
+        <ul>
+            <li><a href="jump/01.html">登录/注册</a></li>   
+            <li><a href="index.html">失物招领</a></li>
+            <li><a href="jump/03.html">寻物启事</a></li>
+            <li><a href="jump/04.html">成功案例</a></li>
+            <li><a href="jump/05.html">联系我们</a></li>
+            <li><a href="jump/06.html">帮助</a></li>
+        </ul>
+     </div>
+
+     <div class="er">
+
+     <div class="logo">
+      <img src="img/logo.jpg" alt="" width="300px" height="130px">
+     </div>
+
+     <div class="ssk">
+       <input type="text" placeholder="请输入物品名,地名,姓名,或证件号后四位,用空格分开" class="one">  
+       <input type="button" value="搜索" class="two">
+       <input type="checkbox" value="1" name="radio1" class="three">只看有图
+       <input type="submit"  value="发布失物招领" name="submit" class="four">
+     </div>
+
+     <div class="san">
+       <dl>
+            <dt>已选择的条件：</dt>
+            <dd><a href="#">暂时没有选择过滤的条件</a></dd>
+        </dl>
+        <dl>
+            <dt>地点：</dt>
+            <dd><a href="#" class="quan">全部</a></dd>
+            <dd><a href="#">信息工程学院</a></dd>
+            <dd><a href="#">机械工程学院</a></dd>
+            <dd><a href="#">财经学院</a></dd>
+            <dd><a href="#">工商管理学院</a></dd>
+            <dd><a href="#">音乐厅</a></dd>
+            <dd><a href="#">其他地点</a></dd>
+        </dl>
+        <dl>
+            <dt>物品：</dt>
+            <dd><a href="#" class="quan">全部</a></dd>
+            <dd><a href="#">手机</a></dd>
+            <dd><a href="#">钱包</a></dd>
+            <dd><a href="#">证件</a></dd>
+            <dd><a href="#">钥匙</a></dd>
+            <dd><a href="#">银行卡</a></dd>
+            <dd><a href="#">笔记本</a></dd>
+            <dd><a href="#">课本</a></dd>
+            <dd><a href="#">其他物品</a></dd>
+        </dl>
+        <dl>
+            <dt>首饰：</dt>
+            <dd><a href="#" class="quan">全部</a></dd>
+            <dd><a href="#">项链</a></dd>
+            <dd><a href="#">手表</a></dd>
+            <dd><a href="#">手环</a></dd>
+            <dd><a href="#">戒指</a></dd>
+            <dd><a href="#">耳环</a></dd>
+            <dd><a href="#">其他首饰</a></dd>
+        </dl>
+        <dl>
+            <dt>时间：</dt>
+            <dd><a href="#"class="quan">全部</a></dd>
+            <dd><a href="#">今天</a></dd>
+            <dd><a href="#">三天内</a></dd>
+            <dd><a href="#">七天内</a></dd>
+            <dd><a href="#">十五天内</a></dd>
+            <dd><a href="#">一个月内</a></dd>
+            <dd><a href="#">其他时间</a></dd>
+        </dl>
+     </div>
+
+     <div class="tu">
+       <img src="img/one.jpg" alt="">
+       <img src="img/two.jpg" alt="">
+       <img src="img/three.jpg" alt="">
+       <img src="img/four.jpg" alt="">
+       <img src="img/five.jpg" alt="">
+       <img src="img/six.jpg" alt="">
+       <img src="img/seven.jpg" alt="">
+       <img src="img/eight.jpg" alt="">
+     </div>
+    
+     </div>
+
+     <footer>&copy; 感谢使用失物招领系统 &copy;<br />2010-2020</footer>
+    
+    </div>
+</body>
+</html>
